@@ -7,10 +7,16 @@ gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
 # sqlite3 for development and test database
 gem 'sqlite3', group: [:development, :test]
+
 # postgres for production database
 gem 'pg', group: :production
+
 # 12 factor for Heroku
 gem 'rails_12factor', group: :production
+
+# add twitter bootstrap
+gem 'bootstrap-sass'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
