@@ -1,28 +1,21 @@
-== README
+== Learn Ruby On Rails: Stripe Payment Processing
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Learn How to Make a Web App That Uses Stripe to Accept One-Off or Subscription Payments.
 
-Things you may want to cover:
+==== Course Overview
 
-* Ruby version
+In this course, you will learn the most straightforward way to accept one-off payments or recurring billing with your Rails web applications. You will also learn how to: Implement Bootstrap with HTML templates, add Stripe to your site, email receipts with Sendgrid, build a web application with Ruby on Rails, and deploy your application with Heroku.
 
-* System dependencies
+===== What am I going to get from this course?
 
-* Configuration
+* Use Stripe to Accept Subscription or One off Payments.
+* App Development Through Ruby on Rails.
+* Basic Layout and Formatting with HTML and CSS.
+* Deploy an Application Using Heroku.
+* Automatically Email Receipts Using SendGrid.
+* All Students Will Have Access to Precise and Complete Code Downloads.
+* Learn How to Use Git and Github for Version Control.
+* Up-To-Date Guidance and Code.
+* Streamlined Instruction for Ease and Efficiency.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Learn more at {Udemy}[https://www.udemy.com/learn-ruby-on-rails-stripe-payment-processing/learn/v4/overview]
