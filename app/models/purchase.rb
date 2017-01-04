@@ -6,7 +6,7 @@ class Purchase < ActiveRecord::Base
   end
 
   def email_purchaser
-    PurchaseMailer.purchase_receipt(self) .deliver
+    PurchaseMailer.purchase_receipt(self).deliver
   end
 
 end
