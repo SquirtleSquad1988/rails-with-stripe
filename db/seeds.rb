@@ -5,7 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+AdminUser.create!(email: 'admin+20@example.com', password: 'password', password_confirmation: 'password')
 
 signature = Product.create(
   title: "Signature",
@@ -13,6 +13,7 @@ signature = Product.create(
   image_name: "Signature.png",
   price: "4.99",
   sku: "signatureOne",
+  info: "cool signature",
   download_url: "https://s3.amazonaws.com/rails-with-stripe/Signature.png",
   details: "A really nice signature",
   description: %{<p>It's a signature</P>}
