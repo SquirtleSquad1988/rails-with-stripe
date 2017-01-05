@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
 # Heroku should use this version of ruby
-ruby '2.2.6'
+ruby '2.3.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5.1'
+gem 'rails', '>= 5.0.0.rc2', '< 5.1'
+
 # Use sqlite3 as the database for Active Record
 # sqlite3 for development and test database
 gem 'sqlite3', group: [:development, :test]
