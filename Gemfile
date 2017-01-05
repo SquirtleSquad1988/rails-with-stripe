@@ -21,6 +21,8 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Figaro to securely configure application
 gem 'figaro'
 
+gem 'bcrypt'
+
 # activeadmin for admin system
 gem 'activeadmin', github: 'activeadmin'
 # helps activeadmin work on Rails 5
