@@ -18,8 +18,9 @@ ul.no-indent {
 }
 
 .container {
-  max-width: 640px;
+  max-width: 80%;
   min-width: 320px;
+  margin-bottom: 60px;
 }
 
 .font-weight-heavy {
@@ -34,34 +35,40 @@ ul.no-indent {
 /* SHARED PAGE STYLES */
 
 body {
-  background-color: #80c2eb;
-  background-size: 25%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
   font-family: 'Open Sans', sans-serif;
+}
+
+#header-container {
+  padding: 20px;
+}
+
+#header-title {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+  color: #666;
 }
 
 #content {
   margin: 40px auto 20px auto;
   background: white;
   padding: 0px;
-  border-radius: 15px;
   overflow: hidden;
   box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.3);
   position: relative;
 }
 
-#content-header {
-  position: relative;
-}
-
 #site-footer {
   text-align: center;
-  color: white;
-  margin-bottom: 20px;
 }
 
-#footer-logo {
-  height: 12px;
-  margin-top: -3px;
+#site-footer a {
+  margin-top: 60px;
+  text-decoration: none;
+  color: #428bca;
 }
 
 #modal-left {
@@ -75,31 +82,41 @@ body {
 
 /* HOME PAGE STYLES */
 
-#price-container {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 100px;
+#products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#price-container .glyphicon-tag {
-  color: #df5a8e;
-  font-size: 40px;
-  position: absolute;
-  z-index: 1;
-  margin-right: 0px;
+.product {
+  width: 450px;
+  margin: 20px;
 }
 
-#price-container .price {
+.product:hover {
+  opacity: 0.6;
+}
+
+.product a {
+  text-decoration: none;
+}
+
+.product-image-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.product-title {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #444;
+}
+
+.product-price {
   font-weight: 400;
-  font-size: 15px;
-  background: #c3316a;
-  color: white;
-  position: absolute;
-  left: 16px;
-  top: 0px;
-  padding: 0px 20px 0px 25px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  color: #666;
 }
 
 #content-details {
@@ -109,10 +126,11 @@ body {
 #details-article {
   border-right: 1px solid #ccc;
   padding: 0px 40px;
+  margin-bottom: 30px;
 }
 
-#article-title {
-  margin-top: 0px;
+#details-title {
+  margin-top: 15px;
   font-weight: 800;
 }
 
@@ -134,10 +152,9 @@ body {
 /* RECEIPT */
 
 #content-receipt {
-  background: #eee;
   height: 400px;
   width: 100%;
-  margin: 0;
+  margin-top: 50px;
   position: relative;
 }
 
@@ -212,9 +229,7 @@ body {
 /* RESPONSIVE */
 
 @media (max-width: 991px) {
-  #details-aside {
-    margin-top: 40px;
-  }
+
 }
 
 @media (max-width: 767px) {
