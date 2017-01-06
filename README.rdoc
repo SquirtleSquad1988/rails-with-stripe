@@ -1,5 +1,7 @@
 == Learn Ruby On Rails: Stripe Payment Processing
 
+Completed 01/05/2017
+
 Learn How to Make a Web App That Uses Stripe to Accept One-Off or Subscription Payments.
 
 ==== Course Overview
